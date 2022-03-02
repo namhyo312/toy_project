@@ -1,0 +1,32 @@
+section.title {
+  text-align: center;
+  margin-top: 92px;
+}
+
+.title h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  color: rgb(81, 83, 236);
+  white-space: nowrap;
+}
+.title h1::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-split);
+  height: 50%;
+  color: #3498db;
+  overflow: hidden;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+.search-bar {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
